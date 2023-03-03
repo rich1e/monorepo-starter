@@ -1,0 +1,11 @@
+{
+  "npm.packageManager": "pnpm",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+    // "source.organizeImports": true, // 在保存的时候,自动调整import语句的相关顺序
+  },
+  "stylelint.validate": ["css", "less", "scss", "html", "vue"],
+  "emmet.triggerExpansionOnTab": true
+}

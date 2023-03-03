@@ -1,0 +1,16 @@
+{
+  "name": "@firmiana/form-plus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "rich1e <yuqigong@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "element-plus": "^2.2.32",
+    "vue": "^3.2.47"
+  }
+}

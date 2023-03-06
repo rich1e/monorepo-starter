@@ -1,0 +1,23 @@
+{
+  "name": "@firmiana/docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev --clean-cache",
+    "docs:build": "vuepress build --clean-cache",
+    "docs:clean": "rimraf .vuepress/.temp .vuepress/.cache .vuepress/dist"
+  },
+  "keywords": [],
+  "author": "rich1e <yuqigong@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/client": "2.0.0-beta.49",
+    "element-plus": "^2.2.32",
+    "rimraf": "^4.3.0",
+    "vite-plugin-vue-setup-extend": "^0.4.0",
+    "vue": "^3.2.47",
+    "vuepress": "2.0.0-beta.49",
+    "vuepress-plugin-demo-block-vue3": "^1.1.0"
+  }
+}
